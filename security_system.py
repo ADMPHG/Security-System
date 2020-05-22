@@ -5,9 +5,9 @@ import time
 #defining mail variables
 port = 465  #for ssl
 smtp_server = 'smtp.gmail.com'
-sender_email = 'Jean4Prez@gmail.com'
-password = 'CompSci6'
-receiver_email = 'Jean4Prez@gmail.com'
+sender_email = 'email@gmail.com' #enter your email address to send alert from
+password = 'password' #enter password of sender email account
+receiver_email = 'email@gmail.com' #enter email address to receive alert
 alert_message = '''\
 Subject: Alert!
 
